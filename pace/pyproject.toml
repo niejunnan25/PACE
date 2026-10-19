@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robotwin-pace"
+version = "0.1.0"
+description = "Phase-Aware Chunk Execution and RoboTwin paper evaluation tools"
+requires-python = ">=3.10,<3.13"
+dependencies = ["numpy==1.26.4", "scipy==1.15.3"]
+
+[project.optional-dependencies]
+robotwin = ["PyYAML>=6,<7"]
+calibration = ["pandas>=2,<3", "pyarrow>=14"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["pace*"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+include = ["src/pace/**/*.py", "scripts/**/*.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["pace", "envs"]
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/*.py" = ["E402"]

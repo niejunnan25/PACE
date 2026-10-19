@@ -1,0 +1,25 @@
+{
+  "num_episodes_analyzed": 50,
+  "num_segments_analyzed": 450,
+  "peak_height_mean": 3.5049129833176265,
+  "peak_height_std": 2.5967625502005878,
+  "peak_height_min": 0.06585325300693512,
+  "peak_height_p5": 0.08267046585679054,
+  "peak_height_p10": 0.08454703167080879,
+  "peak_height_p25": 2.542479556053877,
+  "peak_height_p50": 3.0239947382360697,
+  "peak_height_p75": 4.963760734535754,
+  "peak_height_p90": 7.93109052143991,
+  "peak_height_max": 8.619046449661255,
+  "task": "place_burger_fries",
+  "dataset_id": "single_task_clean_place_burger_fries",
+  "threshold": 0.08267046585679054,
+  "percentile": 5,
+  "source_sha256": "a7856e500d01bb4ed0ba7e213ecc50c8e9a352a86d7460667866dd6b4ff2cf2e",
+  "selector": {
+    "fps": 50,
+    "min_distance": 10,
+    "smoothing_window": 11,
+    "polynomial_order": 3
+  }
+}

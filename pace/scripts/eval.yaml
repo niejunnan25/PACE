@@ -1,0 +1,8 @@
+# OpenPI workspace. Relative paths here start from the RoboTwin workspace.
+openpi_root: ../OpenPI-PACE
+
+# Checkpoint directory and model interpreter: relative to openpi_root, or absolute.
+checkpoint_root: local/pi05-robotwin
+server_python: .venv/bin/python
+
+# Simulation uses the currently activated RoboTwin environment.

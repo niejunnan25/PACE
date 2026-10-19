@@ -1,0 +1,25 @@
+{
+  "num_episodes_analyzed": 50,
+  "num_segments_analyzed": 202,
+  "peak_height_mean": 3.544474416873464,
+  "peak_height_std": 3.3727279751939356,
+  "peak_height_min": 0.010305643081665039,
+  "peak_height_p5": 0.05881085265427828,
+  "peak_height_p10": 0.06608646437525749,
+  "peak_height_p25": 0.092282610014081,
+  "peak_height_p50": 2.5833017826080322,
+  "peak_height_p75": 3.4933526031672955,
+  "peak_height_p90": 9.31466111689806,
+  "peak_height_max": 10.513084389269352,
+  "task": "grab_roller",
+  "dataset_id": "single_task_clean_grab_roller",
+  "threshold": 0.05881085265427828,
+  "percentile": 5,
+  "source_sha256": "8cddfba6ccb3ff197b0e30276a9b11fa2fd7532eb93d897ffac118862666653f",
+  "selector": {
+    "fps": 50,
+    "min_distance": 10,
+    "smoothing_window": 11,
+    "polynomial_order": 3
+  }
+}
