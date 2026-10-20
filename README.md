@@ -3,7 +3,7 @@
 <h3 align="center">NeurIPS 2026</h3>
 
 <p align="center">
-  <a href="https://huggingface.co/niejunnan25/pi05-robotwin"><img src="https://img.shields.io/static/v1?label=Paper&amp;message=PDF&amp;color=red&amp;logo=arxiv&amp;logoColor=white" alt="Paper PDF" height="24"></a>
+  <a href="https://arxiv.org/pdf/2606.00537"><img src="https://img.shields.io/static/v1?label=Paper&amp;message=PDF&amp;color=red&amp;logo=arxiv&amp;logoColor=white" alt="Paper PDF" height="24"></a>
   <a href="https://niejunnan25.github.io/pace-project/"><img src="https://img.shields.io/badge/Project-Website-blue" alt="Project website" height="24"></a>
   <a href="https://huggingface.co/niejunnan25/pi05-robotwin"><img src="https://img.shields.io/static/v1?label=%F0%9F%A4%97%20Model&amp;message=HuggingFace&amp;color=yellow" alt="Hugging Face models" height="24"></a>
 </p>
